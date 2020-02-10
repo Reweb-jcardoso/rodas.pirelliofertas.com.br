@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "rodas.pirelliofertas.com.br",
+    "name": "rodascampneusofertas.com.br",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise-amp",
@@ -51,7 +51,7 @@
     "cleanCSS": true,
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": true,
-    "siteUrl": "https://rodas.pirelliofertas.com.br",
+    "siteUrl": "https://rodascampneusofertas.com.br",
     "sitemapSwitcherAuto": true,
     "favicon": "@PROJECT_PATH@/assets/images/pirelli-01-128x128.png",
     "noImageResize": "",
@@ -61,7 +61,7 @@
     "uniqCompNum": 8,
     "versionPublish": "4.12.0",
     "screenshot": "screenshot.png",
-    "canonical-url": "https://rodas.pirelliofertas.com.br",
+    "canonical-url": "https://rodascampneusofertas.com.br",
     "": "on",
     "imageResize": true,
     "cssOptimize": true,
