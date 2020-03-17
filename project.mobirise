@@ -611,6 +611,10 @@
               "font-size": "3.5rem",
               "color": "#ffff00"
             },
+            ".txt7": {
+              "font-size": "3rem",
+              "color": "#fff"
+            },
             ".txt11": {
               "font-size": "3.5rem",
               "color": "#ffffff"
@@ -631,6 +635,9 @@
               },
               ".txt4": {
                 "font-size": "2.0rem"
+              },
+              ".txt7": {
+                "font-size": "1rem"
               },
               ".txt11": {
                 "font-size": "2.2rem"
@@ -700,7 +707,7 @@
             }
           },
           "_name": "header1",
-          "_customHTML": "<section class=\"header1\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/banner-geral-1-1920x560.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#0dd1ff\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-section-title mbr-fonts-style align-right mbr-bold mbr-white total-text\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\"><br><span class=\"txt1\">RODAS A PREÇO IMBATÍVEL&nbsp;</span><br><span class=\"txt2\">LIGUE AGORA E SAIBA MAIS</span><b><br><span class=\"txt3\">SOMENTE PELO TELEFONE</span></b><br></h1>\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style align-right mbr-white mbr-light\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubTitle\">\n            Accelerate your site with AMP\n        </h3>\n        <p class=\"mbr-fonts-style mbr-text align-right\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-if=\"showText\"><a href=\"tel:+55-11-47502729\" class=\"text-white\"><b>(11) 4750-2729</b></a><br></p>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-2\"><a class=\"btn btn-md btn-primary btn-color\" href=\"tel:+55-11-47502729\" data-app-placeholder=\"Type Text\">\n                LIGUE AGORA</a></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/banner-geral-1-1920x560.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#0dd1ff\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-section-title mbr-fonts-style align-right mbr-bold mbr-white total-text\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\"><br><span class=\"txt1\">RODAS A PREÇO IMBATÍVEL&nbsp;</span><br><span class=\"txt2\">LIGUE AGORA E SAIBA MAIS</span><div><span class=\"txt7\"><br>MAIOR ESTOQUE PRONTA ENTREGA DO BRASIL</span></div><b><span class=\"txt3\">SOMENTE PELO TELEFONE</span></b><br></h1>\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style align-right mbr-white mbr-light\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubTitle\">\n            Accelerate your site with AMP\n        </h3>\n        <p class=\"mbr-fonts-style mbr-text align-right\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-if=\"showText\"><a href=\"tel:+55-11-47502729\" class=\"text-white\"><b>(11) 4750-2729</b></a><br></p>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-2\"><a class=\"btn btn-md btn-primary btn-color\" href=\"tel:+55-11-47502729\" data-app-placeholder=\"Type Text\">\n                LIGUE AGORA</a></div>\n    </div>\n\n</section>",
           "_cid": "rAnxSyY2Bo",
           "_anchor": "header1-5",
           "_PHPplaceholders": [],
